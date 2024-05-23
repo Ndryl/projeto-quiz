@@ -36,4 +36,5 @@ export default class RespostaModel {
       revelada: this.#revelada,
     };
   }
+  //olá
 }
