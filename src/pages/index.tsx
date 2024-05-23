@@ -3,7 +3,7 @@ import QuestaoModel from "../../model/questao";
 import Questionario from "../../components/Questionario";
 import { useRouter } from "next/router";
 
-const BASE_URL = "https://projeto-quiz-six.vercel.app/api";
+const BASE_URL = "https://projeto-quiz-six.vercel.app/api"; //alteração de HTTP
 
 export default function Home() {
   const router = useRouter();
