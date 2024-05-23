@@ -2,29 +2,39 @@ import QuestaoModel from "../../../model/questao";
 import RespostaModel from "../../../model/resposta";
 
 const questoes: QuestaoModel[] = [
-  new QuestaoModel(200, "Quem descobriu o Brasil?", [
-    RespostaModel.errada("D. Pedro I"),
-    RespostaModel.errada("nabucodonosor"),
-    RespostaModel.errada("Papai Noel"),
-    RespostaModel.certa("Hendryl"),
+  new QuestaoModel(200, "Baixo possui quantas cordas?", [
+    RespostaModel.errada("5"),
+    RespostaModel.errada("6"),
+    RespostaModel.errada("7"),
+    RespostaModel.certa("4"),
   ]),
-  new QuestaoModel(201, "Quem deu origem a eletricidade", [
-    RespostaModel.errada("Tales de Mileto"),
-    RespostaModel.errada("Nicolas Tesla"),
-    RespostaModel.errada("Ratinho"),
-    RespostaModel.certa("Hendryl"),
+  new QuestaoModel(201, "Qual foi a primeira animação em 3D", [
+    RespostaModel.errada("Procurando o Nemo"),
+    RespostaModel.errada("Sherek"),
+    RespostaModel.errada("Os incríveis"),
+    RespostaModel.certa("Toy Story"),
   ]),
-  new QuestaoModel(202, "Qual o singular de gatos?", [
-    RespostaModel.errada("Gato"),
-    RespostaModel.errada("Matilha"),
-    RespostaModel.errada("Gatinho"),
-    RespostaModel.certa("Hendryl"),
+  new QuestaoModel(202, "De qual banda é a música No surprise?", [
+    RespostaModel.errada("Red Hot Chili peppers"),
+    RespostaModel.errada("Pink Floyd"),
+    RespostaModel.errada("Green Day"),
+    RespostaModel.certa("Radiohead"),
   ]),
-  new QuestaoModel(203, "Quem é melhor?", [
-    RespostaModel.errada("Messi"),
-    RespostaModel.errada("CR7"),
-    RespostaModel.errada("Pelé"),
-    RespostaModel.certa("Hendryl"),
+  new QuestaoModel(
+    203,
+    "Qual a linguagem de programação original do jogo Tetris?",
+    [
+      RespostaModel.errada("C"),
+      RespostaModel.errada("Assembly"),
+      RespostaModel.errada("Java"),
+      RespostaModel.certa("PASCAL"),
+    ]
+  ),
+  new QuestaoModel(204, "Qual aparelho mede pressão?", [
+    RespostaModel.errada("Termômetro"),
+    RespostaModel.errada("Estetoscópio"),
+    RespostaModel.errada("otoscópio"),
+    RespostaModel.certa("Esfigmomanômetro"),
   ]),
 ];
 export default questoes;
