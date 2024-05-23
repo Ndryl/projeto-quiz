@@ -4,6 +4,7 @@
   height: 100px;
   margin: 10px;
   width: 80%;
+  perspective: 1000px;
 }
 .letra {
   display: flex;
@@ -36,11 +37,19 @@
   width: 100%;
   position: absolute;
   margin: 10px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .conteudoResposta {
   position: relative;
   display: flex;
   flex: 1;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.respostaRevelada.conteudoResposta {
+  transform: rotateY(180deg);
 }
 .verso > div {
   display: flex;
@@ -49,6 +58,9 @@
   align-items: center;
   flex: 1;
   border-radius: 12px;
+}
+.verso {
+  transform: rotateY(180deg);
 }
 .certa {
   background-color: #2baa6d;
