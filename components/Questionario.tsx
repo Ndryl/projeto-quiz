@@ -30,7 +30,7 @@ export default function Questionario(props: QuestionarioProps) {
       )}
       <Botao
         onClick={props.irPraProximoPasso}
-        texto={props.ultima ? "Finalizar" : "Próxia"}
+        texto={props.ultima ? "Finalizar" : "Próxima"}
       />
     </div>
   );
