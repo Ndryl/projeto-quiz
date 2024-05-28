@@ -14,7 +14,7 @@ const questoes: QuestaoModel[] = [
     RespostaModel.errada("Os incríveis"),
     RespostaModel.certa("Toy Story"),
   ]),
-  new QuestaoModel(202, "De qual banda é a música No surprise?", [
+  new QuestaoModel(202, "De qual banda é a música "No surprise?"", [
     RespostaModel.errada("Red Hot Chili peppers"),
     RespostaModel.errada("Pink Floyd"),
     RespostaModel.errada("Green Day"),
